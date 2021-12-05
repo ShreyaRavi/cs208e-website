@@ -10,6 +10,7 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Logout from './Logout';
+import Definition from './Definition';
 
 
 class App extends Component{
@@ -33,6 +34,11 @@ class App extends Component{
                     label:'Logout',
                     icon:'pi pi-power-off',
                     command: () => {window.location = "#/logout"}
+                },
+                {
+                    label:'Definition',
+                    icon:'pi pi-power-off',
+                    command: () => {window.location = "#/definition"}
                 }
 
             ]
@@ -51,13 +57,14 @@ class App extends Component{
                     </Sidebar>
                     <Sidebar position="top" visible={true} showCloseIcon={false} dismissable={false} modal={false}
                              style={{height:'70px', backgroundColor:'#5D5C61', textAlign:'center'}}>
-                        <h2 style={{color:'white'}}>Nice React Template</h2>
+                        <h2 style={{color:'white'}}>History of Object-Oriented Programming</h2>
                     </Sidebar>
                     <div style={{marginTop:"68px",marginLeft:"175px", padding:'15px'}}>
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/logout" component={Logout} />
+                            <Route path="/definition" component={Definition} />
                         </Switch>
                     </div>
                 </div>
