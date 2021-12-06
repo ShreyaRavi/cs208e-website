@@ -24,8 +24,8 @@ class Discussion extends Component{
                 <p> The outcome of all of this being higher-quality software, with faster development and lower cost allows allowing more time to be spent on testing.</p>
                 
                 <h2>Shortcomings </h2>
-                <a href = "https://medium.com/machine-words/the-rise-and-fall-of-object-oriented-programming-d67078f970e2" > 
-                <img src = "https://miro.medium.com/max/1080/1*6rqSrrz_Q5m80KZM9XbqRg.jpeg" alt="Shortcomings" width="300"/>
+                <a href = "https://realpython.com/python3-object-oriented-programming/" > 
+                <img src = "https://files.realpython.com/media/Object-Oriented-Programming-OOP-in-Python-3_Watermarked.0d29780806d5.jpg" alt="Shortcomings" width="350"/>
                 </a>
         
                 <p> OOP of course has several shortcomings. While it can save typing, shorten the code, reduce copy and pasting, improve readability, etc., OOP can also bloat up code, 
@@ -42,6 +42,9 @@ class Discussion extends Component{
                     procedure-based programming style, and applying object-oriented programming in all those situations will not always result in efficient programs. </p>     
                                                                                                                     
                 <h2> Opposing Perspectives </h2>       
+                <a href = "https://medium.com/machine-words/the-rise-and-fall-of-object-oriented-programming-d67078f970e2" > 
+                <img src = "https://miro.medium.com/max/1080/1*6rqSrrz_Q5m80KZM9XbqRg.jpeg" alt="Perspectives" width="350"/>
+                </a>
                                                                                                                     
                 <p> Several software engineers and developers have argued that OOP does not live up to its hype. Joe Armstrong of Erlang once famously said “I think the lack of reusability 
                     comes in object-oriented languages... You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.”
