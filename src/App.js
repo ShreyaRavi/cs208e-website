@@ -6,6 +6,8 @@ import 'primeicons/primeicons.css';
 import {Sidebar} from 'primereact/sidebar';
 import {Menu} from 'primereact/menu';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
 
 import Home from './Home';
 import About from './About';
@@ -43,6 +45,7 @@ class App extends Component{
 
             ]
         };
+        document.title = "History of Object-Oriented Programming";
     }
 
     render()
@@ -56,8 +59,8 @@ class App extends Component{
                               style={{width: '100%', height:'100%', marginTop:'60px'}}/>
                     </Sidebar>
                     <Sidebar position="top" visible={true} showCloseIcon={false} dismissable={false} modal={false}
-                             style={{height:'70px', backgroundColor:'#5D5C61', textAlign:'center'}}>
-                        <h2 style={{color:'white'}}>History of Object-Oriented Programming</h2>
+                             style={{height:'70px', backgroundColor:'#ECE4B7', textAlign:'center'}}>
+                        <h2 style={{color:'black'}}>History of Object-Oriented Programming</h2>
                     </Sidebar>
                     <div style={{marginTop:"68px",marginLeft:"175px", padding:'15px'}}>
                         <Switch>

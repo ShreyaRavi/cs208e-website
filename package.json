@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://stanford.edu/~sravi2/oop-history",
   "dependencies": {
     "classnames": "^2.2.6",
     "primeicons": "^2.0.0",
