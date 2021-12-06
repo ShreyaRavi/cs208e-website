@@ -10,8 +10,6 @@ import { useState, useEffect } from 'react';
 
 
 import Home from './Home';
-import About from './About';
-import Definition from './Definition';
 import Milestones from './Milestones'
 import Discussion from './Discussion';
 
@@ -28,24 +26,13 @@ class App extends Component{
                     command: () => {window.location = "#/"}
                 },
                 {
-                    label:'About',
-                    icon:'pi pi-info',
-                    className: "p-menuitem-active",
-                    command: () => {window.location = "#/about"}
-                },
-                {
-                    label:'Definition',
-                    icon:'pi pi-power-off',
-                    command: () => {window.location = "#/definition"}
-                },
-                {
                     label:'Milestones',
-                    icon:'pi pi-info',
+                    icon:'pi pi-share-alt',
                     command: () => {window.location = "#/milestones"}
                 },
                 {
                     label:'Discussion',
-                    icon:'pi pi-info',
+                    icon:'pi pi-comment',
                     command: () => {window.location = "#/discussion"}
                 }
 
@@ -71,8 +58,6 @@ class App extends Component{
                     <div style={{marginTop:"68px",marginLeft:"175px", padding:'15px'}}>
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/about" component={About} />
-                            <Route path="/definition" component={Definition} />
                             <Route path="/milestones" component={Milestones} />
                             <Route path="/discussion" component={Discussion} />
                         </Switch>

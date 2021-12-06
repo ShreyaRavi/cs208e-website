@@ -90,9 +90,55 @@ class Home extends Component{
             	</p>
 
             	<p> Let's observe these ideas in code. </p>
+            	<div style={{display: "flex", flexDirection: "row", justifyContent:"space-around"}}>
+            	<div style={{width: "45%"}}>
+            		<div style={{display:"flex", justifyContent:"center", marginBottom: "10px"}}>
+            		<span style={{fontWeight: "bold"}}>C Code</span>
+            		</div>
+            		<img  style={{width: "100%"}}src="c_basic.png" />
+            	</div>
+            	<div style={{width: "45%"}}>
+            	<div style={{display:"flex", justifyContent:"center", marginBottom: "10px"}}>
+            		<span style={{fontWeight: "bold"}}>Java Code</span>
+            		</div>
+            		<img style={{width: "100%"}} src="java_with_interface.png" />
+            		</div>
 
-            	<img src=".//>
+            	</div>
 
+            	<p>
+            	We observe the following differences:
+
+            	<ul>
+            		<li><span style={{fontWeight: "bold"}}>Objects. </span> The class Item here contains a blueprint for the object. 
+            		Each object (apple and banana) has both the data (price and discount) and 
+            		the procedures (the applyDiscount function).</li>
+
+            		<li><span style={{fontWeight: "bold"}}>Encapsulation. </span> The data and the procedures that modify that data are 
+            		bundled together. Operations on the banana object cannot change the state 
+            		of the apple object as they are decoupled, whereas in the C code the data 
+            		is accessible to any part of the code. </li>
+
+            		<li><span style={{fontWeight: "bold"}}>Message passing </span>exists in the sense that both the apple and banana objects 
+            		call the applyDiscount function. Here the message is in the form of the name of 
+            		the function, and they call the same function as they are both exactly the same 
+            		object. However, this gets decided at runtime based on the apple object (rather 
+            		than the main object we are currently inside of). The key that makes this 
+            		message passing and thus decouples the sender and receiver of the message is that 
+            		the main object is the one that sent the message to invoke the function is irrelevant.</li>
+
+            		<li><span style={{fontWeight: "bold"}}>Dynamic binding </span> here refers to the fact that which applyDiscount is called is 
+            		determined at runtime. The compiler doesn’t compile the two calls to applyDiscount 
+            		to jump to different parts of the code that are the instructions for the different 
+            		functions. Rather, the compiler creates these different objects which have functions 
+            		in them that point to different parts of the code that correspond to the different 
+            		implementations. At runtime, the computer jumps to the object, then jumps to the function 
+            		pointer stored in this object (this is a form of message passing), then executes the code 
+            		that the function pointer points to.</li>
+
+            	</ul>
+
+            	</p>
 
             </div>
             <div style={{display:"flex", flexDirection: "column"}}>
