@@ -24,6 +24,9 @@ class Discussion extends Component{
                 <p> The outcome of all of this being higher-quality software, with faster development and lower cost allows allowing more time to be spent on testing.</p>
                 
                 <h2>Shortcomings </h2>
+                <a href = "https://medium.com/machine-words/the-rise-and-fall-of-object-oriented-programming-d67078f970e2" > 
+                <img src = "https://miro.medium.com/max/1080/1*6rqSrrz_Q5m80KZM9XbqRg.jpeg" alt="Shortcomings" width="300"/>
+                </a>
         
                 <p> OOP of course has several shortcomings. While it can save typing, shorten the code, reduce copy and pasting, improve readability, etc., OOP can also bloat up code, 
                     overly complicate code, cause more errors (dangling objects), and cause unnecessary line noise (free/create/new/destroy, etc). Consequently, 
