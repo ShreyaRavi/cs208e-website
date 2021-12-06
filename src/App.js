@@ -12,6 +12,7 @@ import About from './About';
 import Logout from './Logout';
 import Definition from './Definition';
 import Milestones from './Milestones'
+import Discussion from './Discussion';
 
 
 class App extends Component{
@@ -45,6 +46,11 @@ class App extends Component{
                     label:'Milestones',
                     icon:'pi pi-info',
                     command: () => {window.location = "#/milestones"}
+                },
+                {
+                    label:'Discussion',
+                    icon:'pi pi-info',
+                    command: () => {window.location = "#/discussion"}
                 }
 
             ]
@@ -72,6 +78,7 @@ class App extends Component{
                             <Route path="/logout" component={Logout} />
                             <Route path="/definition" component={Definition} />
                             <Route path="/milestones" component={Milestones} />
+                            <Route path="/discussion" component={Discussion} />
                         </Switch>
                     </div>
                 </div>
