@@ -90,10 +90,42 @@ class Milestones extends Component{
                 Kay, Alan C. The Early History of Smalltalk </a>
 
 
+                <h2>Modern Object-Oriented Programming Languages </h2>
+                <p>Pure Object Oriented Programming Languages (where everything is presented as an object)</p>
+                <ul>
+                  <li>Ruby </li>
+                  <li>Scala</li>
+                </ul>
+                <p>Object Oriented Programming Languages that have other functionalities</p>
+                <ul>
+                  <li>Java </li>
+                  <li>Python</li>
+                  <li>C++</li>
+                </ul>
+                <p></p>
+
+                <p>All of these examples hold key functionalities including classes that support the creation of
+                objects and class inheritance. In Ruby and Scala, everything appears as an object, while Java,
+                for example, is not a pure OOP because it has primitive data types that don't function as objects.</p>
+
+                <i><h4>"I invented the term Object-Oriented, and I can tell you I did not have C++ in mind." - Alan Kay</h4></i>
+
+
+                <p>Over time, the term object-oriented programming has taken on the core meaning of including classes,
+                inheritance, encapsulation, and abstraction, moving away from some of the meaning that Dr. Kay believes
+                is at the root of OOP, saying "OOP to me means only messaging, local retention and protection and hiding
+                of state-process, and extreme late-binding of all things." </p>
+
+
+                <h3>Learn more:</h3>
+                <a href = "https://www.youtube.com/watch?v=oKg1hTOQXoY">
+                Alan Kay at OOPSLA 1997 - The computer revolution hasnt happened yet</a>
+                <p></p>
+                <a href = "https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP">
+                Gillis, Alexander S. and Lewis, Sarah. Object-Oriented Programming (OOP)</a>
             </div>
         );
     }
 }
 
 export default Milestones;
-
