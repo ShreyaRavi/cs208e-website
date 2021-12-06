@@ -11,7 +11,6 @@ import { useState, useEffect } from 'react';
 
 import Home from './Home';
 import About from './About';
-import Logout from './Logout';
 import Definition from './Definition';
 import Milestones from './Milestones'
 
@@ -32,11 +31,6 @@ class App extends Component{
                     icon:'pi pi-info',
                     className: "p-menuitem-active",
                     command: () => {window.location = "#/about"}
-                },
-                {
-                    label:'Logout',
-                    icon:'pi pi-power-off',
-                    command: () => {window.location = "#/logout"}
                 },
                 {
                     label:'Definition',
@@ -72,7 +66,6 @@ class App extends Component{
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
-                            <Route path="/logout" component={Logout} />
                             <Route path="/definition" component={Definition} />
                             <Route path="/milestones" component={Milestones} />
                         </Switch>

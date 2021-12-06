@@ -13,3 +13,7 @@
 .p-menu .p-menuitem .p-menuitem-link:hover {
   background-color: #4872A5;
 }
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}

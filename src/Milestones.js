@@ -6,7 +6,7 @@ class Milestones extends Component{
     {
 
         return (
-            <div>
+            <div style={{width: "70%"}}>
                 <h1>Key programming language milestones in the development of OOP </h1>
                 <h2>Sketchpad </h2>
                 <a href = "https://bimaplus.org/news/the-very-beginning-of-the-digital-representation-ivan-sutherland-sketchpad/">
